@@ -11,6 +11,89 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 * {
   box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+/* HOME PAGE */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.profile {
+  display: flex;
+  max-width: 900px;
+  margin: 180px auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(59, 58, 58);
+  margin: 0 25px;
+  transition: 0.2s;
+}
+
+.navbar a:hover {
+  background-color: blue;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 6px;
+}
+
+.intro {
+  margin: 0 90px;
+}
+
+.contact a {
+  margin: 0 15px;
+}
+
+/* Contact */
+.link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 17px;
+  width: 500px;
+}
+
+input {
+  font-size: 17px;
+  width: 500px;
+  padding: 5px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+/* to target only certain types of inputs use this patern */
+input[type='submit'] {
+  background-color: #00bcd4;
+  color: white;
+  font-size: 17px;
+  width: 500px;
+  padding: 5px;
+  height: 50px;
+  margin: 10px 0;
 }
