@@ -12,25 +12,25 @@ const Contact = () => {
       <ul className='contact'>
         <div className='link'>
           <li>
-            <Image src='/facebook.png' height={25} width={25} />
+            <Image src='/contact-logos/facebook.png' height={25} width={25} />
             <a href='https://facebook.com'>Follow me on Facebook</a>
           </li>
         </div>
         <div className='link'>
           <li>
-            <Image src='/instagram.png' height={25} width={25} />
+            <Image src='/contact-logos/instagram.png' height={25} width={25} />
             <a href='https://instagram.com'>Follow me on Instagram</a>
           </li>
         </div>
         <div className='link'>
           <li>
-            <Image src='/linkedin.png' height={25} width={25} />
+            <Image src='/contact-logos/linkedin.png' height={25} width={25} />
             <a href='https://linkedin.com'>Follow me on LinkedIn</a>
           </li>
         </div>
         <div className='link'>
           <li>
-            <Image src='/youtube.png' height={25} width={25} />
+            <Image src='/contact-logos/youtube.png' height={25} width={25} />
             <a href='https://youtube.com'>Follow my Youtube channel</a>
           </li>
         </div>
